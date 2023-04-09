@@ -1,0 +1,10 @@
+#!/bin/bash
+
+guix pack \
+    --relocatable \
+    -S /bin=bin \
+    nmap arp-scan speedtest-cli ffmpeg \
+    rust perl julia go python \
+    ripgrep tokei tree btop fzf hyperfine \
+    meson git ninja pkg-config \
+    bash
